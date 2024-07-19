@@ -2,7 +2,7 @@ import sys
 
 sys.stdin = open('0611.txt') # 표준 입력값 지정
 
-while True:
+while True: 
     w, h = map(int, input().split())
     map_ = []
     cnt = 0
