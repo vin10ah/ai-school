@@ -1,0 +1,26 @@
+name: script_practice
+channels:
+  - conda-forge
+  - defaults
+  - pytorch
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - tqdm
+  - scikit-learn
+  - scipy
+  - pillow
+  - opencv
+  - pytorch
+  - torchvision
+  - torchaudio
+  - ipykernel
+  - jupyterlab
+  - requests
+  - pyyaml
+  - pip:
+    - kaggle
